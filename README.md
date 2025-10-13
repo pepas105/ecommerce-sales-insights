@@ -18,12 +18,16 @@ This project explores a real retail sales dataset to uncover key business insigh
 * **Tableau:** for dashboards and visual reports
 * **Jupyter Notebook:** for data exploration and documentation
 * **GitHub:** for version control and project tracking
+  
+## Dataset License
 
-## Dataset
+This project uses the ["Supermarket Sales" dataset](https://www.kaggle.com/datasets/aungpyaeap/supermarket-sales) from Kaggle, 
+which contains information such as:  
+`Invoice ID`, `Date`, `Customer Type`, `Product Line`, `Unit Price`, `Quantity`, `Total`, `Payment`, and more.  
 
-The data comes from a **Kaggle retail sales dataset** that includes information such as:
-`Invoice ID`, `Date`, `Customer Type`, `Product Line`, `Unit Price`, `Quantity`, `Total`, `Payment`, `City`, and more.
-Please make sure to check the original Kaggle license before using or sharing the dataset.
+**Note:** Please make sure to check the original Kaggle license before using or sharing the dataset.  
+All credit for the data goes to the original author.
+licensed under the [CC BY 4.0 License](https://creativecommons.org/licenses/by/4.0/).
 
 ## Workflow (PACE Framework)
 
