@@ -1,8 +1,52 @@
-# 🛒 E-Commerce Sales Insights (WIP)
+# 📊 Retail Sales Insights Dashboard
 
-Exploratory analysis of retail sales to uncover revenue trends, profit drivers,
-and discount impact. Built with Python (pandas, matplotlib, seaborn) and a
-Power BI dashboard for stakeholders.
+## Overview
 
-**Current focus:** data intake & cleaning  
-**Next:** first KPIs and monthly revenue trend
+This project explores a real retail sales dataset to uncover key business insights and build an interactive dashboard. The goal is to simulate how a data analyst would approach a real-world task: cleaning data, finding patterns, creating visualizations, and presenting results that help guide business decisions.
+
+## Objectives
+
+* Clean and prepare raw transactional data for analysis.
+* Explore sales trends by city, product line, and customer type.
+* Build an interactive dashboard to visualize performance metrics.
+* Apply simple forecasting models to predict future sales.
+* Present findings in a clear, business-oriented way.
+
+## Tools
+
+* **Python:** pandas, numpy, scipy, matplotlib, seaborn, scikit-learn
+* **Tableau:** for dashboards and visual reports
+* **Jupyter Notebook:** for data exploration and documentation
+* **GitHub:** for version control and project tracking
+
+## Dataset
+
+The data comes from a **Kaggle retail sales dataset** that includes information such as:
+`Invoice ID`, `Date`, `Customer Type`, `Product Line`, `Unit Price`, `Quantity`, `Total`, `Payment`, `City`, and more.
+Please make sure to check the original Kaggle license before using or sharing the dataset.
+
+## Workflow (PACE Framework)
+
+**Plan**
+Define project goals, gather the dataset, and set up the folder structure (`data/`, `notebooks/`, `dashboard/`).
+
+**Analyze**
+Clean and explore the data, visualize trends, and identify factors influencing sales and revenue.
+
+**Construct**
+Develop the dashboard and build forecasting or segmentation models that help answer key business questions.
+
+**Execute**
+Document the insights, publish the dashboard, and share conclusions with clear visualizations and explanations.
+
+## Expected Results
+
+By the end of this project, the repository will include:
+
+* Cleaned dataset and reproducible notebooks
+* Interactive dashboard
+* Summary report with main insights and recommendations
+
+## License
+
+This project is released under the **MIT License**.
