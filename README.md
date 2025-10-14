@@ -21,7 +21,7 @@ This project explores a real retail sales dataset to uncover key business insigh
   
 ## Dataset License
 
-This project uses the ["Supermarket Sales" dataset](https://www.kaggle.com/datasets/aungpyaeap/supermarket-sales) from Kaggle, 
+This project uses the ["Superstore" dataset](https://www.kaggle.com/datasets/vivek468/superstore-dataset-final/data) from Kaggle, 
 which contains information such as:  
 `Invoice ID`, `Date`, `Customer Type`, `Product Line`, `Unit Price`, `Quantity`, `Total`, `Payment`, and more.  
 
