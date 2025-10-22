@@ -47,14 +47,15 @@ Summarize total business performance to support Tableau dashboards and EDA.
 **Output file:**  
 `data/processed/03_gold_aggregated_kpis.csv`
 
-| KPI  | Description |
-|------|--------------|
-| `total_sales`  | Aggregated revenue |
-| `total_profit` | Aggregated profit |
-| `avg_profit_margin` | Profitability ratio |
-| `discount_rate` | Average discount applied |
-| `order_count` | Number of transactions |
-| `avg_ship_delay_days` |  Average delivery delay |
+
+
+| KPI  | Description | Value |
+|------|--------------|---|
+| `total_sales`  | Aggregated revenue | **2,297,200.86** |
+| `total_profit` | Aggregated profit |**286,397.02** |
+| `avg_profit_margin` | Profitability ratio |**12.03 %** |
+| `repeat_customer_rate` | Rate of Customers who made more than 1 order | **99.37%** |
+| `avg_ship_delay_days` |  Average delivery delay | **3.96 days** |
 
 The file was cross-validated to ensure group totals match transactional-level data within `03_gold_features.parquet`.
 
@@ -81,8 +82,7 @@ The file was cross-validated to ensure group totals match transactional-level da
 
 ## 6. Next Steps (EDA Stage)
 
-1. Perform exploratory data analysis (`04_eda.ipynb`) to identify trends and outliers.  
-2. Visualize and analyze regional and category-level profitability.  
-3. Evaluate discount impact on margin and shipping delay patterns.
-4. Explore correlations between numeric features
+1. **Perform exploratory data analysis** (`04_eda.ipynb`) to identify trends and outliers.  
+2. **Visualize and analyze** Economical Performance, Customer Behaviour, Discount, Pricing, Operational Efficiency, Regional and Product-level profitability.
+4. **Explore correlations** between numeric features
 5. Document findings in `reports/04_eda_summary.md`.
